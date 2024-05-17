@@ -34,19 +34,42 @@ public class Main {
 
         //Exercicio 02
 
-        int num, valor = -1;
+//        int num, valor = -1;
+//
+//        for(int i=0; i<10; i++) {
+//            do {
+//                num = Integer.parseInt(JOptionPane.showInputDialog((i + 1) + "Numero: "));
+//            }while (num<0 || num>100) ;
+//                if (num > valor) {
+//                    valor = num;
+//                }
+//            }
+//                System.out.println("O valor maior é: " + valor);
 
-        for(int i=0; i<10; i++) {
-            do {
-                num = Integer.parseInt(JOptionPane.showInputDialog((i + 1) + "Numero: "));
-            }while (num<0 || num>100) ;
-                if (num > valor) {
-                    valor = num;
-                }
-            }
-                System.out.println("O valor maior é: " + valor);
+        //========================================================
+        //Array
+
+        int[] salarios = new int[5];
+
+
+        salarios[i] = Float.parseFloat(JOptionPane.showInputDialog("Qual o valor do seu salário"));
+
+        Arrays.sort(salarios);
+        for (int valor : salarios) {
+            System.out.print(valor + " ");
+        }
+       System.out.println("");
+        int pos = Arrays.binarySearch(salarios);
+        System.out.println("O maior salário é: " + pos);
+
+
+    }
+
+
+
+
 
         }
-    }
+
 
 
