@@ -26,13 +26,18 @@ public class Main {
         Professor prof2 = new Professor("Tia Vera", 4, "3,14", "Matematica");
         pessoas.add(prof2);
 
+        Estagiario est = new Estagiario("Culpado de Tudo", 5, "12", "ADS", "Limpar Banheiro");
+        pessoas.add(est);
+
+
+
         for(Pessoa p: pessoas){
             System.out.println("___________");
             System.out.println(pessoas.indexOf(p));
             System.out.println(p.getNome());
             System.out.println(p.getId());
             System.out.println(p.getSenha());
-            if( p instanceof Aluno){
+            if( p.getClass() == Aluno.class){
 //                System.out.println(p.getNome() + " é um aluno");
                 Aluno a1 = (Aluno) p;
                 System.out.println(a1.getCurso());
@@ -40,7 +45,11 @@ public class Main {
                 Professor p1 = (Professor) p;
                 System.out.println(p1.getArea());
 
-                }
+                }else {
+                Estagiario e1 = (Estagiario) p;
+                System.out.println(e1.getFuncao());
+                System.out.println(e1.getCurso());
+            }
             }
 
         }
