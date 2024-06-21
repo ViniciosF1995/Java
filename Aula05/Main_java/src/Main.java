@@ -32,11 +32,11 @@ public class Main {
 
 
         for(Pessoa p: pessoas){
-            System.out.println("___________");
-            System.out.println(pessoas.indexOf(p));
-            System.out.println(p.getNome());
-            System.out.println(p.getId());
-            System.out.println(p.getSenha());
+                System.out.println("___________");
+                System.out.println(pessoas.indexOf(p));
+                System.out.println(p.getNome());
+                System.out.println(p.getId());
+                System.out.println(p.getSenha());
             if( p.getClass() == Aluno.class){
 //                System.out.println(p.getNome() + " é um aluno");
                 Aluno a1 = (Aluno) p;
@@ -44,12 +44,11 @@ public class Main {
             }else if(p instanceof Professor){
                 Professor p1 = (Professor) p;
                 System.out.println(p1.getArea());
-
-                }else {
+            }else {
                 Estagiario e1 = (Estagiario) p;
                 System.out.println(e1.getFuncao());
                 System.out.println(e1.getCurso());
-            }
+                }
             }
 
         }
