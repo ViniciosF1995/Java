@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c821330-9a34-4443-b6b0-60c4d38e8852" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Pedido_Milkshakespeare" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Pedido_Milkshakespeare" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Pedido_Milkshakespeare/file/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Pedido_Milkshakespeare/file/src/Main.java" afterDir="false" />
+    <list default="true" id="0ae5af9c-a763-42bb-9c2f-f5cb54c5755a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../atividade/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atividade/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atividade/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atividade/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atividade/Java_Pedido_Milkshakespeare" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atividade/atividade.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,23 +15,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Java_Pedido_Milkshakespeare" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
+  "associatedIndex": 1
 }]]></component>
-  <component name="ProjectId" id="2iASdDtBOaQ2z32YQlbmE4mMMZn" />
+  <component name="ProjectId" id="2iD8EczBGKjVOnXKy7CJhA3HcC9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -48,12 +45,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8c821330-9a34-4443-b6b0-60c4d38e8852" name="Changes" comment="" />
-      <created>1718931975514</created>
+      <changelist id="0ae5af9c-a763-42bb-9c2f-f5cb54c5755a" name="Changes" comment="" />
+      <created>1719013678057</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1718931975514</updated>
-      <workItem from="1718931976965" duration="66000" />
+      <updated>1719013678057</updated>
+      <workItem from="1719013680115" duration="72000" />
     </task>
     <servers />
   </component>
