@@ -5,7 +5,7 @@ public class Main {
         TelaHome t = new TelaHome();
         t.setContentPane(t.painelPrincipal);
         t.setTitle("Simulator");
-        t.setSize(800, 600);
+        t.setSize(700, 600);
         t.setVisible(true);
         t.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
